@@ -29,6 +29,12 @@
                         <span>{{pxLang('admin.main-nav','dashboard')}}</span>
                     </a>
                 </li>
+                 <li class="">
+                    <a href="{{url('admin/customer')}}" class="">
+                        <i class="fa-solid fa-user-cog"></i>
+                        <span>{{pxLang('admin.main-nav','customer.menu')}}</span>
+                    </a>
+                </li>
                 <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="fa fa-users"></i>

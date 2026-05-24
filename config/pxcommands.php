@@ -44,7 +44,8 @@ return [
                     'dashboard',
                     'setup',
                     'reset',
-                    'hrm'
+                    'hrm',
+                    'customer'
                 ]
             ]
         ]
@@ -83,6 +84,7 @@ return [
         'admin.user.nav' => 'admin/setup/navs/index',
         'admin.hrm.user' => 'admin/hrm/user/index',
         'admin.hrm.user.user-role' => 'admin/hrm/user/user-role/index',
-        'admin.hrm.user.policy' => 'admin/hrm/user/policy/index'
+        'admin.hrm.user.policy' => 'admin/hrm/user/policy/index',
+        'admin.customer.crud' => 'admin/customer/crud/index'
     ]
 ];
