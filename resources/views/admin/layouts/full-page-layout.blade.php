@@ -6,6 +6,23 @@ $c = "nav-md";
 <html lang="en" class="light-style layout-menu-fixed" dir="ltr">
 <head>
     @include('admin.includes.header-resource',['tabTitle' => $tabTitle ?? "Site Title"])
+     <style>
+        body {
+            background: lightblue url("{{url('images/system/login_bg.jpg')}}") no-repeat left top 100%/100%;
+        }
+        .login_base {
+            background-color: rgba(0,0,0,.1);
+            border: 1px solid orange;
+        }
+        @media (max-width: 575.98px) {
+            body {
+                background: lightblue url("{{url('images/system/login_bg.jpg')}}") no-repeat fixed left top;
+            }
+            .login_base {
+                background-color: rgba(0,0,0,.6);
+            }
+        }
+    </style>
 </head>
 <body class="authentication-bg">
     @yield('page')
