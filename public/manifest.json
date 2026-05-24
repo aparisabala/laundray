@@ -1,0 +1,8 @@
+{
+  "resources/js/TestComponent.jsx": {
+    "file": "resources/js/TestComponent.js",
+    "name": "TestComponent",
+    "src": "resources/js/TestComponent.jsx",
+    "isEntry": true
+  }
+}
